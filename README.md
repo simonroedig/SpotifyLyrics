@@ -25,6 +25,17 @@ A python approach to fetch Musixmatchs' (synchronized) lyrics locally via Spotif
 
 -  **example_usage.py**: Demonstrating its usage
 ```
+from spotify_lyrics import SpotifyLyrics
+
+track_id = "48UPSzbZjgc449aqz8bxox"
+sp_dc_cookie = os.getenv("SP_DC_COOKIE")
+spotify = SpotifyLyrics(sp_dc_cookie)
+```
+
+```
+lyrics_json = spotify.getLyrics(track_id)
+ic(lyrics_json)
+--------------------------
 ic| lyrics_json: {'colors': {'background': -16745031, 'highlightText': -1, 'text': -16777216},
                   'hasVocalRemoval': False,
                   'lyrics': {'alternatives': [],
@@ -48,7 +59,11 @@ ic| lyrics_json: {'colors': {'background': -16745031, 'highlightText': -1, 'text
                                       .
                                       .
 ```
+
 ```
+lyrics_tupel_array = spotify.convertJsonLyricsToTupelArray(lyrics_json)
+ic(lyrics_tupel_array)
+--------------------------
 ic| lyrics_tupel_array: [('20530', "Psychic spies from China try to steal your mind's elation"),
                          ('25400', 'And little girls from Sweden dream of silver-screen quotation'),
                          ('30420', 'And if you want these kind of dreams'),
