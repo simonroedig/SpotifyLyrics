@@ -1,18 +1,14 @@
-<table align="center">
-<tr>
-<td align="center">
-    <img src="/for_readme/spotify_icon.png"  width="70" />
-</td>
 
-<td align="center">
-    <h2>Your Project Title</h2>
-</td>
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
 
-<td align="center">
-    <img src="/for_readme/musixmatch_icon.png"  width="70" />
-</td>
-</tr>
-</table>
+<img  src="/for_readme/spotify_icon.png"  width="70" />
+
+<h1>Spotify Lyrics - Python Approach</h1>
+
+<img  src="/for_readme/musixmatch_icon.png"  width="70" />
+
+</div>
+
 
 ##  Description
 
