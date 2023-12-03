@@ -1,11 +1,11 @@
 
 <section style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
 
-    <img  src="/for_readme/spotify_icon.png"  width="70" />
+<img  src="/for_readme/spotify_icon.png"  width="70" />
 
-    <h1 align="center">Spotify Lyrics - Python Approach</h1>
+<h1 align="center">Spotify Lyrics - Python Approach</h1>
 
-    <img align="right" src="/for_readme/musixmatch_icon.png"  width="70" />
+<img align="right" src="/for_readme/musixmatch_icon.png"  width="70" />
 
 </section>
 
