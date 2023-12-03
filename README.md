@@ -1,5 +1,5 @@
 
-<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+<div align="center">
 
 <img  src="/for_readme/spotify_icon.png"  width="70" />
 
