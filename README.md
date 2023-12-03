@@ -1,4 +1,4 @@
-<table>
+<table align="center">
 <tr>
 <td align="center">
     <img src="/for_readme/spotify_icon.png"  width="70" />
