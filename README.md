@@ -1,4 +1,5 @@
-<table align="center">
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0">
 <tr>
 <td align="center">
     <img src="/for_readme/spotify_icon.png" alt="Left Image" width="70"/>
@@ -13,7 +14,7 @@
 </td>
 </tr>
 </table>
-
+</div>
 
 <br>
 
