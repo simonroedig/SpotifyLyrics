@@ -17,30 +17,13 @@
 <br>
 
 ##  Description
-A python approach to fetch Musixmatchs' (synchronized) lyrics via Spotify
+A python approach to fetch Musixmatchs' (synchronized) lyrics locally via Spotify
 
 ##  Usage
 -  **spotify_lyrics.py**: Main module
+
+
 -  **example_usage.py**: Demonstrating its usage
-
-```
-from dotenv import load_dotenv
-import os
-from icecream import ic
-
-from spotify_lyrics import SpotifyLyrics
-
-def main():
-    # Track id for Red Hot Chili Peppers - Californication
-    track_id = "48UPSzbZjgc449aqz8bxox"
-
-    try:
-        sp_dc_cookie = os.getenv("SP_DC_COOKIE")
-        spotify = SpotifyLyrics(sp_dc_cookie)
-        
-        lyrics_json = spotify.getLyrics(track_id)
-        ic(lyrics_json)
-```
 ```
 ic| lyrics_json: {'colors': {'background': -16745031, 'highlightText': -1, 'text': -16777216},
                   'hasVocalRemoval': False,
@@ -61,15 +44,10 @@ ic| lyrics_json: {'colors': {'background': -16745031, 'highlightText': -1, 'text
                                         'words': 'And little girls from Sweden dream of '     
                                                  'silver-screen quotation'},
                                        {'endTimeMs': '0',
-                                        'startTimeMs': '30420',
-                                        'syllables': [],
-                                        'words': 'And if you want these kind of dreams'},
-                                       {'endTimeMs': '0',
+                                      .
+                                      .
+                                      .
 ```
-``` 
-        lyrics_tupel_array = spotify.convertJsonLyricsToTupelArray(lyrics_json)
-        ic(lyrics_tupel_array)
-``` 
 ```
 ic| lyrics_tupel_array: [('20530', "Psychic spies from China try to steal your mind's elation"),
                          ('25400', 'And little girls from Sweden dream of silver-screen quotation'),
@@ -86,17 +64,10 @@ ic| lyrics_tupel_array: [('20530', "Psychic spies from China try to steal your m
                          ('81770', 'Firstborn unicorn'),
                          ('85860', 'Hardcore soft-porn'),
                          ('90450', 'Dream of Californication'),
+                         .
+                         .
+                         .
 ```
-``` 
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        
-if __name__ == '__main__':
-    load_dotenv()
-    main()
-```   
-
-
 
 Clone the repository or simple copy 'spotify_lyrics.py' into your project and install the required dependencies. Make sure to obtain your `SP_DC` cookie and set it in your environment variables as `SP_DC_COOKIE`. Example usage can be found in `example_usage.py`.
 I recommend using the icecream module for such lyrics projects as it can structure your print/log statements and makes reading and debugging lyrics easier.
