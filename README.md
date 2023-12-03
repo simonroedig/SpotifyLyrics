@@ -5,7 +5,7 @@
 
 <h1 align="center">Spotify Lyrics - Python Approach</h1>
 
-<img align="right" src="/for_readme/musixmatch_icon.png"  width="70" />
+<img float="right" src="/for_readme/musixmatch_icon.png"  width="70" />
 
 </section>
 
