@@ -1,14 +1,14 @@
-```html
+
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
 
-    <img  src="/for_readme/spotify_icon.png"  width="100" />
+<img  src="/for_readme/spotify_icon.png"  width="100" />
 
-    <h1>Spotify Lyrics - Python Approach</h1>
+<h1>Spotify Lyrics - Python Approach</h1>
 
-    <img  src="/for_readme/musixmatch_icon.png"  width="100" />
+<img  src="/for_readme/musixmatch_icon.png"  width="100" />
 
 </div>
-```
+
 
 ##  Description
 
