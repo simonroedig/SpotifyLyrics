@@ -1,7 +1,7 @@
 
-<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
+<div  style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; align-content: center;">
 
-<img  src="/for_readme/spotify_icon.png"  width="70" />
+<img  align="left" src="/for_readme/spotify_icon.png"  width="70" />
 
 <h1 align="center">Spotify Lyrics - Python Approach</h1>
 
