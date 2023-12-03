@@ -1,10 +1,9 @@
-<img  align="left" src="/for_readme/spotify_icon.png"  width="70" />
+<p align="center">
+  <img src="/path/to/spotify_icon.png" alt="Spotify Icon" width="70"/>
+  <span style="font-size: large; font-weight: bold;">Spotify Lyrics - Python Approach</span>
+  <img src="/path/to/musixmatch_icon.png" alt="Musixmatch Icon" width="70"/>
+</p>
 
-<h1 align="center">Spotify Lyrics - Python Approach</h1>
-
-<img align="right" src="/for_readme/musixmatch_icon.png"  width="70" />
-
-<br>
 
 ##  Description
 
