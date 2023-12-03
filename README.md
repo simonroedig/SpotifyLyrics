@@ -1,15 +1,15 @@
 <div align="center">
 <table border="0" cellpadding="0" cellspacing="0">
 <tr>
-<td align="center">
+<td style="border: none;">
     <img src="/for_readme/spotify_icon.png" alt="Left Image" width="70"/>
 </td>
 
-<td align="center">
+<td style="border: none;">
     <h2>Spotify Lyrics - Python Approach</h2>
 </td>
 
-<td align="center">
+<td style="border: none;">
     <img src="/for_readme/musixmatch_icon.png" alt="Right Image" width="70"/>
 </td>
 </tr>
