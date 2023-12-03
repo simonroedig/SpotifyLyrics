@@ -1,7 +1,7 @@
 <table align="center">
 <tr>
 <td align="center">
-    <img src="/for_readme/spotify_icon.png alt="Left Image" width="70"/>
+    <img src="/for_readme/spotify_icon.png" alt="Left Image" width="70"/>
 </td>
 
 <td align="center">
