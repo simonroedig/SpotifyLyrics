@@ -20,8 +20,8 @@
 A python approach to fetch Musixmatchs' (synchronized) lyrics locally via Spotify
 
 ##  Usage
--  **spotify_lyrics.py**: Main module (SpotifyLyrics)
--  **example_usage.py**: Demonstrating its usage:
+-  `spotify_lyrics.py`: Main module (SpotifyLyrics)
+-  `example_usage.py`: Demonstrating its usage:
 ```
 from spotify_lyrics import SpotifyLyrics
 
@@ -32,7 +32,6 @@ spotify = SpotifyLyrics(sp_dc_cookie)
 
 ```
 lyrics_json = spotify.getLyrics(track_id)
-ic(lyrics_json)
 
 ic| lyrics_json: {'colors': {'background': -16745031, 'highlightText': -1, 'text': -16777216},
                   'hasVocalRemoval': False,
@@ -60,7 +59,6 @@ ic| lyrics_json: {'colors': {'background': -16745031, 'highlightText': -1, 'text
 
 ```
 lyrics_tupel_array = spotify.convertJsonLyricsToTupelArray(lyrics_json)
-ic(lyrics_tupel_array)
 
 ic| lyrics_tupel_array: [('20530', "Psychic spies from China try to steal your mind's elation"),
                          ('25400', 'And little girls from Sweden dream of silver-screen quotation'),
@@ -81,22 +79,21 @@ ic| lyrics_tupel_array: [('20530', "Psychic spies from China try to steal your m
                          .
 ```
 
-Clone the repository or simple copy 'spotify_lyrics.py' into your project and install the required dependencies. Make sure to obtain your `SP_DC` cookie and set it in your environment variables as `SP_DC_COOKIE`. Example usage can be found in `example_usage.py`.
-I recommend using the icecream module for such lyrics projects as it can also structure your print/log statements and makes reading and debugging lyrics easier.
+Clone the repository or simple copy `spotify_lyrics.py` into your project and install the required dependencies. Make sure to obtain your `SP_DC` cookie and set it in your `environment variables` as `SP_DC_COOKIE`. Example usage can be found `above` and in `example_usage.py`.
+I recommend using the `icecream` module for such lyrics projects as it can also structure your print/log statements and makes reading and debugging lyrics easier.
 
 ## Further Exmplanation
--  **SP_DC Cookie**:  This cookie is used to obtain the access token required to request lyrics via Spotify. A detailed guide on how to find the `SP_DC` cookie was provided by [akashrchandran](https://github.com/akashrchandran/akashrchandran) -> [here](https://github.com/akashrchandran/syrics/wiki/Finding-sp_dc).
-You need to manually retrieve this cookie from a browser session, where you are logged into Spotify. (Cookie is valid for about a year).
-There are no straightforward methods to retrieve the SP_DC cookie programmatically due to the way web cookies are managed.
+-  **SP_DC Cookie**:  This cookie is used to obtain the access token required to request lyrics via Spotifys web player. A detailed guide on how to find the `SP_DC` cookie was provided by [akashrchandran](https://github.com/akashrchandran/akashrchandran) -> [here](https://github.com/akashrchandran/syrics/wiki/Finding-sp_dc).
+You need to `manually retrieve` this cookie from a browser session where you are logged into Spotify. (Cookie is valid for about a year).
+There are no straightforward methods to retrieve the `SP_DC` cookie programmatically due to the way web cookies are managed.
 
--  **Access Token**: Once the `SP_DC` cookie is obtained, it is used to request an access token from Spotify. This token is then used to authenticate and authorize requests for fetching lyrics.
+-  **Access Token**: Once the `SP_DC` cookie is obtained, it is used to request an `access token` from Spotify. This token is then used to authenticate and authorize requests for fetching lyrics.
 
   
-
 ##  Disclaimer
-This approach is not novel and takes inspiration from various GitHub projects that focus on fetching synchronized lyrics via Spotify. Notably, it draws from the work by [akashrchandran](https://github.com/akashrchandran), as seen in his [spotify-lyrics-api](https://github.com/akashrchandran/spotify-lyrics-api) project in PHP where he also provides a Rest API endpoint. This particular implementation offers a local, lightweight python approach.
+This approach is not novel and takes inspiration from various GitHub projects that focus on fetching synchronized lyrics via Spotify. Notably, it draws from the work by [akashrchandran](https://github.com/akashrchandran), as seen in his [spotify-lyrics-api](https://github.com/akashrchandran/spotify-lyrics-api) project using `PHP` where he also provides a Rest API endpoint. My particular implementation offers a local, lightweight python approach.
 
-Please note that this method involves accessing Musixmatch API synced lyrics via Spotify and might fall into a legal grey area. It is recommended to use this for personal, educational, or research purposes only, and not in a production environment.
+Please note that this method involves accessing Musixmatch API synced lyrics via Spotify and might fall into a `legal grey area`. It is recommended to use this for personal, educational, or research purposes only, and not in a production environment.
 
   
 
