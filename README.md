@@ -41,6 +41,7 @@ def main():
         lyrics_json = spotify.getLyrics(track_id)
         ic(lyrics_json)
 ```
+<p>
 ic| lyrics_json: {'colors': {'background': -16745031, 'highlightText': -1, 'text': -16777216},
                   'hasVocalRemoval': False,
                   'lyrics': {'alternatives': [],
@@ -64,10 +65,12 @@ ic| lyrics_json: {'colors': {'background': -16745031, 'highlightText': -1, 'text
                                         'syllables': [],
                                         'words': 'And if you want these kind of dreams'},
                                        {'endTimeMs': '0',
+</p>
 ``` 
         lyrics_tupel_array = spotify.convertJsonLyricsToTupelArray(lyrics_json)
         ic(lyrics_tupel_array)
 ``` 
+<p>
 ic| lyrics_tupel_array: [('20530', "Psychic spies from China try to steal your mind's elation"),
                          ('25400', 'And little girls from Sweden dream of silver-screen quotation'),
                          ('30420', 'And if you want these kind of dreams'),
@@ -83,6 +86,7 @@ ic| lyrics_tupel_array: [('20530', "Psychic spies from China try to steal your m
                          ('81770', 'Firstborn unicorn'),
                          ('85860', 'Hardcore soft-porn'),
                          ('90450', 'Dream of Californication'),
+</p>
 ``` 
     except Exception as e:
         print(f"An error occurred: {e}")
