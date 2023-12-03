@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img  src="/for_readme/spotify_icon.png"  width="70" />
+<img style="float:left;"  src="/for_readme/spotify_icon.png"  width="70" />
 
 <h1>Spotify Lyrics - Python Approach</h1>
 
