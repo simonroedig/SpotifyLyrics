@@ -3,7 +3,7 @@
 
 <img  src="/for_readme/spotify_icon.png"  width="70" />
 
-<h1>Spotify Lyrics - Python Approach</h1>
+<h1 align="center">Spotify Lyrics - Python Approach</h1>
 
 <img  src="/for_readme/musixmatch_icon.png"  width="70" />
 
