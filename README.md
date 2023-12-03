@@ -22,8 +22,7 @@ A python approach to fetch Musixmatchs' (synchronized) lyrics locally via Spotif
 ##  Usage
 -  **spotify_lyrics.py**: Main module
 
-
--  **example_usage.py**: Demonstrating its usage
+-  **example_usage.py**: Demonstrating its usage:
 ```
 from spotify_lyrics import SpotifyLyrics
 
@@ -35,7 +34,7 @@ spotify = SpotifyLyrics(sp_dc_cookie)
 ```
 lyrics_json = spotify.getLyrics(track_id)
 ic(lyrics_json)
---------------------------
+
 ic| lyrics_json: {'colors': {'background': -16745031, 'highlightText': -1, 'text': -16777216},
                   'hasVocalRemoval': False,
                   'lyrics': {'alternatives': [],
@@ -63,7 +62,7 @@ ic| lyrics_json: {'colors': {'background': -16745031, 'highlightText': -1, 'text
 ```
 lyrics_tupel_array = spotify.convertJsonLyricsToTupelArray(lyrics_json)
 ic(lyrics_tupel_array)
---------------------------
+
 ic| lyrics_tupel_array: [('20530', "Psychic spies from China try to steal your mind's elation"),
                          ('25400', 'And little girls from Sweden dream of silver-screen quotation'),
                          ('30420', 'And if you want these kind of dreams'),
@@ -85,7 +84,7 @@ ic| lyrics_tupel_array: [('20530', "Psychic spies from China try to steal your m
 ```
 
 Clone the repository or simple copy 'spotify_lyrics.py' into your project and install the required dependencies. Make sure to obtain your `SP_DC` cookie and set it in your environment variables as `SP_DC_COOKIE`. Example usage can be found in `example_usage.py`.
-I recommend using the icecream module for such lyrics projects as it can structure your print/log statements and makes reading and debugging lyrics easier.
+I recommend using the icecream module for such lyrics projects as it can also structure your print/log statements and makes reading and debugging lyrics easier.
 
 ## Further Exmplanation
 -  **SP_DC Cookie**:  This cookie is used to obtain the access token required to request lyrics via Spotify. A detailed guide on how to find the `SP_DC` cookie was provided by [akashrchandran](https://github.com/akashrchandran/akashrchandran) -> [here](https://github.com/akashrchandran/syrics/wiki/Finding-sp_dc).
