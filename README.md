@@ -1,11 +1,11 @@
 
 <div align="center">
 
-<img style="float:left;"  src="/for_readme/spotify_icon.png"  width="70" />
+<img align="left" src="/for_readme/spotify_icon.png"  width="70" />
 
 <h1>Spotify Lyrics - Python Approach</h1>
 
-<img  src="/for_readme/musixmatch_icon.png"  width="70" />
+<img  align="right" src="/for_readme/musixmatch_icon.png"  width="70" />
 
 </div>
 
