@@ -14,8 +14,6 @@
 </tr>
 </table>
 
-<br>
-
 ##  Description
 A python approach to fetch Musixmatchs' (synchronized) lyrics locally via Spotify
 
