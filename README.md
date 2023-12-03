@@ -1,14 +1,3 @@
-
-<div align="center">
-
-<img align="left" src="/for_readme/spotify_icon.png"  width="70" />
-
-<h1>Spotify Lyrics - Python Approach</h1>
-
-<img  align="right" src="/for_readme/musixmatch_icon.png"  width="70" />
-
-</div>
-
 <table>
 <tr>
 <td align="center">
