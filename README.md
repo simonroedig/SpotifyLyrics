@@ -20,8 +20,7 @@
 A python approach to fetch Musixmatchs' (synchronized) lyrics locally via Spotify
 
 ##  Usage
--  **spotify_lyrics.py**: Main module
-
+-  **spotify_lyrics.py**: Main module (SpotifyLyrics)
 -  **example_usage.py**: Demonstrating its usage:
 ```
 from spotify_lyrics import SpotifyLyrics
