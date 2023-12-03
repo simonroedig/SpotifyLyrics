@@ -1,11 +1,18 @@
+<table align="center">
+<tr>
+<td align="center">
+    <img src="/for_readme/spotify_icon.png alt="Left Image" width="70"/>
+</td>
 
+<td align="center">
+    <h2>Spotify Lyrics - Python Approach</h2>
+</td>
 
-<img  align="left" src="/for_readme/spotify_icon.png"  width="70" />
-
-<h1 align="center">Spotify Lyrics - Python Approach</h1>
-
-<img align="right" src="/for_readme/musixmatch_icon.png"  width="70" />
-
+<td align="center">
+    <img src="/for_readme/musixmatch_icon.png" alt="Right Image" width="70"/>
+</td>
+</tr>
+</table>
 
 
 <br>
