@@ -9,6 +9,21 @@
 
 </div>
 
+<table>
+<tr>
+<td align="center">
+    <img src="/for_readme/spotify_icon.png"  width="70" />
+</td>
+
+<td align="center">
+    <h2>Your Project Title</h2>
+</td>
+
+<td align="center">
+    <img src="/for_readme/musixmatch_icon.png"  width="70" />
+</td>
+</tr>
+</table>
 
 ##  Description
 
