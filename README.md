@@ -23,8 +23,12 @@ A python approach to fetch Musixmatchs' (synchronized) lyrics locally via Spotif
 ```
 from spotify_lyrics import SpotifyLyrics
 
-track_id = "48UPSzbZjgc449aqz8bxox"
+# Spotify Song > Right Click > Share > Copy Song Link (track_id is within link between ..track/ and ?si=..)
+track_id = "48UPSzbZjgc449aqz8bxox" 
+
+# create a .env and set your SP_DC_COOKIE there, check env.txt and further down in README.md for further explanation
 sp_dc_cookie = os.getenv("SP_DC_COOKIE")
+
 spotify = SpotifyLyrics(sp_dc_cookie)
 ```
 
