@@ -14,6 +14,9 @@
 </tr>
 </table>
 
+## News
+Due to recent changes in Spotify's authentication and API restrictions, this way of obtaining the lyrics is no longer functional.
+
 ##  Description
 A python approach to fetch Musixmatchs' (synchronized) lyrics locally via Spotify
 
