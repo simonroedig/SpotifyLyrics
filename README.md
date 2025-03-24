@@ -16,6 +16,7 @@
 
 ## News
 Due to recent changes in Spotify's authentication and API restrictions, this way of obtaining the lyrics is no longer functional.
+As an alternative, you might find [LRCLIB](https://lrclib.net/) useful as another way of getting free lyrics.
 
 ##  Description
 A python approach to fetch Musixmatchs' (synchronized) lyrics locally via Spotify
